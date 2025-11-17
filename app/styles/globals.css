@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F4F6FA;
+  margin: 0;
+  padding: 0;
+  color: #1A237E;
+}
+
+button {
+  cursor: pointer;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.primary-button {
+  background-color: #335CFF;
+  color: white;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: #1A237E;
+}
+
+.grade-green {
+  color: #1DBF73;
+  font-weight: 700;
+}
+
+.warning-yellow {
+  color: #FAD648;
+  font-weight: 700;
+}
+
+.indigo-text {
+  color: #1A237E;
+  font-weight: 600;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
